@@ -1,0 +1,238 @@
+$site-font-family: 'Open Sans', sans-serif;
+$h1-font-size: 42px;
+$p-font-size: 29px;
+$main-text-color: #212121;
+$button-color-main: #000000;
+$bg-color:#ffffff;
+$button-color: #0d0d0d;
+$img:"../img";
+$menuimage: url(#{$img}/menuicon.png);
+$blockheight: 920px;
+$vert-margin: 210px;
+$wrap: 1390px;
+
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&subset=cyrillic');
+
+body, h1, h2, h3, h4, h5, h6, button{
+    font-family: $site-font-family;
+    font-size: $h1-font-size;
+    margin: 0;
+}
+
+h1, p{
+    font-weight: 300;
+}
+
+h3{
+  font-weight: 300;
+  letter-spacing: 2.1px;
+  text-align: center;
+  color: $main-text-color;
+}
+
+p{
+    font-size: $p-font-size;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.45;
+    color: #0d0d0d;
+}
+
+.logo{
+    font-size: $h1-font-size;
+    font-weight: 300;
+    letter-spacing: 2.1px;
+    text-align: left;
+    color: $main-text-color;
+    text-transform: uppercase;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+
+.wrapper{
+    width: $wrap;
+    margin: 0 auto;
+    background: white;
+    padding: 69px 104px;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.clear:before,
+.clear:after {
+    content: "";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.menuimage{
+    width: 41px;
+    height: 29px;
+}
+
+.Header-image {
+    margin-top: 60px;
+    width: 100%;
+    height: 748px;
+    padding: 300px 3% 300px 65%;
+    object-fit: contain;
+    background-image: url(#{$img}/headerimage.jpg);
+}
+
+.highlight{
+    font-weight: 400;
+}
+
+.block{
+    margin-top: $vert-margin;
+}
+
+.about{
+    width: 50%;
+    vertical-align: middle;
+}
+
+.pear{
+    background: url(#{$img}/pear.jpg) repeat-y;
+    overflow: hidden;
+    height: $blockheight;
+
+}
+
+.plate{
+    background: url(#{$img}/plate.jpg) repeat-y;
+    overflow: hidden;
+    height: $blockheight;
+}
+
+.brad{
+    background: url(#{$img}/brad.jpg) repeat-y;
+    overflow: hidden;
+    height: $blockheight;
+}
+
+.meat{
+    background: url(#{$img}/meat.jpg) repeat-y;
+    overflow: hidden;
+    height: $blockheight;
+    padding: 75px;
+    text-align: right;
+}
+
+
+hr{
+        width: $vert-margin;
+        height: 3px;
+        border:none;
+        background-color: #000000;
+        margin: 50px auto;
+    }
+
+.large{
+    
+}
+
+.images{
+    width: 100%;
+}
+
+.textpart{
+    padding: 200px 80px;
+}
+
+.graybox{
+    padding: 75px;
+    background: rgba(115, 115, 115, 0.8);
+    width: 50%;
+    color: aqua;
+    h3, p{
+        color: white;
+    }
+}
+
+.center{
+    text-align: center;
+}
+
+.manytextblock{
+    padding: 0 150px;
+    p{
+        text-align: center;
+    }
+}
+
+    .star{
+        width: 17px;
+        height: 17px; 
+    }
+
+    .star_contain{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 120px;
+        height: 60px;
+    }
+
+.steak{
+    background: url(#{$img}/steak.jpg) repeat-y;
+    overflow: hidden;
+    height: $blockheight;
+}
+
+
+button{
+    background-color: $bg-color;
+    border: solid 8px $button-color;
+    font-family: $site-font-family;
+    font-size: $h1-font-size;
+    font-weight: 300;
+    text-align: center;
+    color: $button-color-main;
+    padding: 30px 60px;
+    margin-top: 70px;
+}
+
+   button:hover{
+        background-color: $button-color;
+        color: $bg-color;
+    }
+
+.tea{
+    background: url(#{$img}/tea.jpg) repeat-y;
+    overflow: hidden;
+    height: $blockheight;
+    padding: 75px;
+    height: 100%;
+}
+
+.large{
+    font-size: $h1-font-size;
+}
+
+.copyright{
+    width: $wrap;
+    padding: 80px 0;
+    background-color: $button-color;
+    margin: 0 auto;
+    p{
+        color: #ffffff;
+    }
+}

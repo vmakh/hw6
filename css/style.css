@@ -1,0 +1,261 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&subset=cyrillic");
+/* line 14, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 20, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+body, h1, h2, h3, h4, h5, h6, button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  margin: 0;
+}
+
+/* line 26, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+h1, p {
+  font-weight: 300;
+}
+
+/* line 30, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+h3 {
+  font-weight: 300;
+  letter-spacing: 2.1px;
+  text-align: center;
+  color: #212121;
+}
+
+/* line 37, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+p {
+  font-size: 29px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 1.45;
+  color: #0d0d0d;
+}
+
+/* line 45, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.logo {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 2.1px;
+  text-align: left;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+/* line 54, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+/* line 62, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.wrapper {
+  width: 1390px;
+  margin: 0 auto;
+  background: white;
+  padding: 69px 104px;
+}
+
+/* line 69, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.left {
+  float: left;
+}
+
+/* line 72, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.right {
+  float: right;
+}
+
+/* line 76, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.clear:before,
+.clear:after {
+  content: "";
+  display: table;
+}
+
+/* line 82, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.clear:after {
+  clear: both;
+}
+
+/* line 86, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.menuimage {
+  width: 41px;
+  height: 29px;
+}
+
+/* line 91, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.Header-image {
+  margin-top: 60px;
+  width: 100%;
+  height: 748px;
+  padding: 300px 3% 300px 65%;
+  object-fit: contain;
+  background-image: url(../img/headerimage.jpg);
+}
+
+/* line 100, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.highlight {
+  font-weight: 400;
+}
+
+/* line 104, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.block {
+  margin-top: 210px;
+}
+
+/* line 108, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.about {
+  width: 50%;
+  vertical-align: middle;
+}
+
+/* line 113, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.pear {
+  background: url(../img/pear.jpg) repeat-y;
+  overflow: hidden;
+  height: 920px;
+}
+
+/* line 120, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.plate {
+  background: url(../img/plate.jpg) repeat-y;
+  overflow: hidden;
+  height: 920px;
+}
+
+/* line 126, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.brad {
+  background: url(../img/brad.jpg) repeat-y;
+  overflow: hidden;
+  height: 920px;
+}
+
+/* line 132, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.meat {
+  background: url(../img/meat.jpg) repeat-y;
+  overflow: hidden;
+  height: 920px;
+  padding: 75px;
+  text-align: right;
+}
+
+/* line 141, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+hr {
+  width: 210px;
+  height: 3px;
+  border: none;
+  background-color: #000000;
+  margin: 50px auto;
+}
+
+/* line 153, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.images {
+  width: 100%;
+}
+
+/* line 157, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.textpart {
+  padding: 200px 80px;
+}
+
+/* line 161, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.graybox {
+  padding: 75px;
+  background: rgba(115, 115, 115, 0.8);
+  width: 50%;
+  color: aqua;
+}
+
+/* line 166, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.graybox h3, .graybox p {
+  color: white;
+}
+
+/* line 171, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.center {
+  text-align: center;
+}
+
+/* line 175, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.manytextblock {
+  padding: 0 150px;
+}
+
+/* line 177, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.manytextblock p {
+  text-align: center;
+}
+
+/* line 182, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.star {
+  width: 17px;
+  height: 17px;
+}
+
+/* line 187, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.star_contain {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 120px;
+  height: 60px;
+}
+
+/* line 194, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.steak {
+  background: url(../img/steak.jpg) repeat-y;
+  overflow: hidden;
+  height: 920px;
+}
+
+/* line 201, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+button {
+  background-color: #ffffff;
+  border: solid 8px #0d0d0d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+  padding: 30px 60px;
+  margin-top: 70px;
+}
+
+/* line 213, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+button:hover {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+
+/* line 218, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.tea {
+  background: url(../img/tea.jpg) repeat-y;
+  overflow: hidden;
+  height: 920px;
+  padding: 75px;
+  height: 100%;
+}
+
+/* line 226, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.large {
+  font-size: 42px;
+}
+
+/* line 230, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.copyright {
+  width: 1390px;
+  padding: 80px 0;
+  background-color: #0d0d0d;
+  margin: 0 auto;
+}
+
+/* line 235, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.copyright p {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=../css/style.map */
