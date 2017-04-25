@@ -1,5 +1,6 @@
 $site-font-family: 'Open Sans', sans-serif;
 $h1-font-size: 42px;
+$h1-font-size-14: 36px;
 $p-font-size: 29px;
 $main-text-color: #212121;
 $button-color-main: #000000;
@@ -10,6 +11,8 @@ $menuimage: url(#{$img}/menuicon.png);
 $blockheight: 920px;
 $vert-margin: 210px;
 $wrap: 1390px;
+$smwrap: 800px;
+
 
 *{
     box-sizing: border-box;
@@ -17,13 +20,13 @@ $wrap: 1390px;
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&subset=cyrillic');
 
-body, h1, h2, h3, h4, h5, h6, button{
+body, h1, h2, h3, h4, h5, h6, button, input{
     font-family: $site-font-family;
     font-size: $h1-font-size;
     margin: 0;
 }
 
-h1, p{
+h1, p, input{
     font-weight: 300;
 }
 
@@ -34,7 +37,13 @@ h3{
   color: $main-text-color;
 }
 
-p{
+.headertext{
+    width: 40%;
+    padding: 200px 50px;
+}
+
+
+p, input{
     font-size: $p-font-size;
     font-weight: 300;
     text-align: left;
@@ -58,6 +67,9 @@ p{
     margin: 0 auto;
 }
 
+.mainmenu{
+    width: 100%;
+}
 
 .wrapper{
     width: $wrap;
@@ -91,10 +103,10 @@ p{
 .Header-image {
     margin-top: 60px;
     width: 100%;
-    height: 748px;
-    padding: 300px 3% 300px 65%;
-    object-fit: contain;
-    background-image: url(#{$img}/headerimage.jpg);
+    vertical-align: middle;
+    background: url(#{$img}/headerimage.jpg) no-repeat center center ;
+    overflow: hidden;
+    background-size:cover;
 }
 
 .highlight{
@@ -198,7 +210,7 @@ hr{
 }
 
 
-button{
+button, form{
     background-color: $bg-color;
     border: solid 8px $button-color;
     font-family: $site-font-family;
@@ -235,4 +247,69 @@ button{
     p{
         color: #ffffff;
     }
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    font-size: 33px;
+
+    .inptext{
+        width: 65%;
+        border: none;
+        padding: 24px 0px;
+    }
+    
+    .inpbtn{
+        width: 25%;
+        background-color: #ffffff;
+        border: 0;
+        border-left: 1px solid black;
+        height: 100%;
+        padding: 24px 1px 24px 14px;
+    }
+}
+
+input{
+    margin: 0;
+}
+.formblock{
+    padding: 80px 0 200px 0;
+}
+
+//@media screen and (max-width: 1390px){
+//    .wrapper{
+//    width: $smwrap;
+//    padding: 30px 50px;
+//}  
+//}
+
+
+@media screen and (max-width: 1390px){
+    .wrapper{
+    width: 96%;
+    padding: 30px 50px;
+    }
+    
+    body, h1, h2, h3, h4, h5, h6, button, input{
+    font-size: $h1-font-size-14;
+
+}
+    
+    .Header-image {
+        margin-top: 40px;
+        width: 100%;
+        height: 500px;
+        vertical-align: middle;
+    }
+    
+    
+    .copyright{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    
 }
