@@ -484,7 +484,7 @@ input {
   }
   /* line 487, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   .logo {
-    display: none;
+    font-size: 20px;
   }
   /* line 490, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   body, h1, h2, h3, h4, h5, h6, button, input {
@@ -606,7 +606,7 @@ input {
   }
   /* line 605, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   .large {
-    font-size: 42px;
+    font-size: 20px;
   }
   /* line 609, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   .copyright {

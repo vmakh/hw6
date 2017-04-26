@@ -485,7 +485,7 @@ input{
     }
     
     .logo{
-        display: none;
+        font-size: $h1-font-size-mobile;
 }
     body, h1, h2, h3, h4, h5, h6, button, input{
         font-size: $h1-font-size-mobile;
@@ -603,7 +603,7 @@ button, form{
 }
 
 .large{
-    font-size: $h1-font-size;
+    font-size: $h1-font-size-mobile;
 }
 
 .copyright{
