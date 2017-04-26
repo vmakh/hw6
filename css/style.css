@@ -1,23 +1,23 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i&subset=cyrillic");
-/* line 17, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 23, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 23, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 29, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 body, h1, h2, h3, h4, h5, h6, button, input {
   font-family: "Open Sans", sans-serif;
   font-size: 42px;
   margin: 0;
 }
 
-/* line 29, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 35, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 h1, p, input {
   font-weight: 300;
 }
 
-/* line 33, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 39, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 h3 {
   font-weight: 300;
   letter-spacing: 2.1px;
@@ -25,13 +25,13 @@ h3 {
   color: #212121;
 }
 
-/* line 40, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 46, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .headertext {
   width: 40%;
   padding: 200px 50px;
 }
 
-/* line 46, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 52, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 p, input {
   font-size: 29px;
   font-weight: 300;
@@ -40,7 +40,7 @@ p, input {
   color: #0d0d0d;
 }
 
-/* line 54, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 60, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .logo {
   font-size: 42px;
   font-weight: 300;
@@ -50,7 +50,7 @@ p, input {
   text-transform: uppercase;
 }
 
-/* line 63, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 69, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -58,12 +58,12 @@ p, input {
   margin: 0 auto;
 }
 
-/* line 70, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 76, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .mainmenu {
   width: 100%;
 }
 
-/* line 74, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 80, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .wrapper {
   width: 1390px;
   margin: 0 auto;
@@ -71,35 +71,35 @@ p, input {
   padding: 69px 104px;
 }
 
-/* line 81, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 87, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .left {
   float: left;
 }
 
-/* line 84, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 90, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .right {
   float: right;
 }
 
-/* line 88, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 94, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .clear:before,
 .clear:after {
   content: "";
   display: table;
 }
 
-/* line 94, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 100, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .clear:after {
   clear: both;
 }
 
-/* line 98, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 104, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .menuimage {
   width: 41px;
   height: 29px;
 }
 
-/* line 103, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 109, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .Header-image {
   margin-top: 60px;
   width: 100%;
@@ -109,53 +109,54 @@ p, input {
   background-size: cover;
 }
 
-/* line 112, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 118, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .highlight {
   font-weight: 400;
 }
 
-/* line 116, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 122, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .block {
   margin-top: 210px;
 }
 
-/* line 120, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 126, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .about {
   width: 50%;
   vertical-align: middle;
 }
 
-/* line 125, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 131, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .pear {
-  background: url(../img/pear.jpg) repeat-y;
+  background: url(../img/pear.jpg) no-repeat center center;
   overflow: hidden;
   height: 920px;
+  background-size: cover;
 }
 
-/* line 132, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 139, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .plate {
-  background: url(../img/plate.jpg) repeat-y;
+  background: url(../img/plate.jpg) no-repeat center center;
   overflow: hidden;
   height: 920px;
 }
 
-/* line 138, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 145, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .brad {
-  background: url(../img/brad.jpg) repeat-y;
+  background: url(../img/brad.jpg) no-repeat center center;
   overflow: hidden;
   height: 920px;
 }
 
-/* line 144, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 151, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .meat {
-  background: url(../img/meat.jpg) repeat-y;
+  background: url(../img/meat.jpg) no-repeat center center;
   overflow: hidden;
   height: 920px;
   padding: 75px;
   text-align: right;
 }
 
-/* line 153, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 160, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 hr {
   width: 210px;
   height: 3px;
@@ -164,17 +165,17 @@ hr {
   margin: 50px auto;
 }
 
-/* line 165, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 168, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .images {
   width: 100%;
 }
 
-/* line 169, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 172, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .textpart {
   padding: 200px 80px;
 }
 
-/* line 173, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 176, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .graybox {
   padding: 75px;
   background: rgba(115, 115, 115, 0.8);
@@ -182,33 +183,33 @@ hr {
   color: aqua;
 }
 
-/* line 178, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 181, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .graybox h3, .graybox p {
   color: white;
 }
 
-/* line 183, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 186, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .center {
   text-align: center;
 }
 
-/* line 187, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 190, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .manytextblock {
   padding: 0 150px;
 }
 
-/* line 189, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 192, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .manytextblock p {
   text-align: center;
 }
 
-/* line 194, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 197, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .star {
   width: 17px;
   height: 17px;
 }
 
-/* line 199, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 202, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .star_contain {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -216,14 +217,14 @@ hr {
   height: 60px;
 }
 
-/* line 206, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 209, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .steak {
-  background: url(../img/steak.jpg) repeat-y;
+  background: url(../img/steak.jpg) no-repeat center center;
   overflow: hidden;
   height: 920px;
 }
 
-/* line 213, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 216, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 button, form {
   background-color: #ffffff;
   border: solid 8px #0d0d0d;
@@ -236,27 +237,27 @@ button, form {
   margin-top: 70px;
 }
 
-/* line 225, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 228, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 button:hover {
   background-color: #0d0d0d;
   color: #ffffff;
 }
 
-/* line 230, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 233, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .tea {
-  background: url(../img/tea.jpg) repeat-y;
+  background: url(../img/tea.jpg) no-repeat center center;
   overflow: hidden;
   height: 920px;
   padding: 75px;
   height: 100%;
 }
 
-/* line 238, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 241, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .large {
   font-size: 42px;
 }
 
-/* line 242, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 245, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .copyright {
   width: 1390px;
   padding: 80px 0;
@@ -264,12 +265,12 @@ button:hover {
   margin: 0 auto;
 }
 
-/* line 247, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 250, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .copyright p {
   color: #ffffff;
 }
 
-/* line 252, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 255, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 form {
   width: 70%;
   margin: 0 auto;
@@ -277,14 +278,14 @@ form {
   font-size: 33px;
 }
 
-/* line 258, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 261, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 form .inptext {
   width: 65%;
   border: none;
   padding: 24px 0px;
 }
 
-/* line 264, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 267, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 form .inpbtn {
   width: 25%;
   background-color: #ffffff;
@@ -294,37 +295,370 @@ form .inpbtn {
   padding: 24px 1px 24px 14px;
 }
 
-/* line 274, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 277, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 input {
   margin: 0;
 }
 
-/* line 277, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+/* line 280, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
 .formblock {
   padding: 80px 0 200px 0;
 }
 
 @media screen and (max-width: 1390px) {
-  /* line 290, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  /* line 296, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   .wrapper {
-    width: 96%;
-    padding: 30px 50px;
+    width: 100%;
+    padding: 30px 20px;
   }
-  /* line 295, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  /* line 302, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   body, h1, h2, h3, h4, h5, h6, button, input {
-    font-size: 36px;
+    font-size: 32px;
   }
-  /* line 300, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  /* line 305, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  p, input {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.45;
+    color: #0d0d0d;
+  }
+  /* line 313, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .logo {
+    font-size: 32px;
+  }
+  /* line 318, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   .Header-image {
     margin-top: 40px;
     width: 100%;
-    height: 500px;
+    height: 600px;
     vertical-align: middle;
   }
-  /* line 308, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  /* line 326, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
   .copyright {
     width: 100%;
   }
+  /* line 331, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .headertext {
+    width: 80%;
+    padding: 150px 50px;
+  }
+  /* line 337, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .block {
+    margin-top: 60px;
+  }
+  /* line 341, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .about {
+    width: 50%;
+    vertical-align: middle;
+  }
+  /* line 346, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .pear {
+    height: 500px;
+  }
+  /* line 351, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .plate {
+    height: 500px;
+  }
+  /* line 355, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .brad {
+    height: 500px;
+  }
+  /* line 359, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .meat {
+    height: 500px;
+    padding: 20px;
+  }
+  /* line 365, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  hr {
+    width: 210px;
+    height: 3px;
+    border: none;
+    background-color: #000000;
+    margin: 50px auto;
+  }
+  /* line 373, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .images {
+    width: 100%;
+  }
+  /* line 377, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .textpart {
+    padding: 40px 20px;
+  }
+  /* line 381, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .graybox {
+    padding: 20px;
+    background: rgba(115, 115, 115, 0.8);
+    width: 50%;
+    color: aqua;
+  }
+  /* line 386, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .graybox h3, .graybox p {
+    color: white;
+  }
+  /* line 391, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .center {
+    text-align: center;
+  }
+  /* line 395, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .manytextblock {
+    padding: 0 50px;
+  }
+  /* line 397, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .manytextblock p {
+    text-align: center;
+  }
+  /* line 402, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .star {
+    width: 17px;
+    height: 17px;
+  }
+  /* line 407, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .star_contain {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 60px;
+  }
+  /* line 414, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .steak {
+    height: 500px;
+  }
+  /* line 419, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  button, form {
+    font-size: 32px;
+    padding: 20px 40px;
+    margin-top: 50px;
+  }
+  /* line 426, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .tea {
+    height: 500px;
+    padding: 20px;
+  }
+  /* line 431, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .large {
+    font-size: 32px;
+  }
+  /* line 435, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .copyright {
+    width: 100%;
+    padding: 80px 0;
+  }
+  /* line 440, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    font-size: 33px;
+  }
+  /* line 446, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  form .inptext {
+    width: 65%;
+    border: none;
+    padding: 24px 0px;
+  }
+  /* line 452, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  form .inpbtn {
+    width: 25%;
+    background-color: #ffffff;
+    border: 0;
+    border-left: 1px solid black;
+    height: 100%;
+    padding: 24px 1px 24px 14px;
+  }
+  /* line 462, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  input {
+    margin: 0;
+  }
+  /* line 465, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .formblock {
+    padding: 80px 0 200px 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /* line 482, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .wrapper {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  /* line 487, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .logo {
+    display: none;
+  }
+  /* line 490, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  body, h1, h2, h3, h4, h5, h6, button, input {
+    font-size: 20px;
+    margin: 0;
+  }
+  /* line 495, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .menuicon {
+    width: 20px;
+    height: 16px;
+  }
+  /* line 499, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .Header-image {
+    margin-top: 20px;
+    height: 320px;
+  }
+  /* line 503, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .headertext {
+    width: 100%;
+    padding: 10px 10px;
+  }
+  /* line 508, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .block {
+    margin-top: 64px;
+  }
+  /* line 511, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .about {
+    width: 100%;
+  }
+  /* line 515, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .pear {
+    background: url(../img/pear.jpg) no-repeat center center;
+    height: 320px;
+    background-size: 100% auto;
+  }
+  /* line 521, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .about {
+    width: 100%;
+  }
+  /* line 525, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .textpart {
+    padding: 20px 10px;
+  }
+  /* line 529, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  p, input {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  /* line 533, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .plate {
+    height: 320px;
+  }
+  /* line 537, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .brad {
+    height: 320px;
+  }
+  /* line 541, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .meat {
+    height: 320px;
+    padding: 10px;
+    text-align: right;
+  }
+  /* line 548, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .textpart {
+    padding: 20px 10px;
+  }
+  /* line 552, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .graybox {
+    padding: 10px;
+    width: 100%;
+  }
+  /* line 557, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  hr {
+    width: 64px;
+    height: 2px;
+    margin: 20px auto;
+  }
+  /* line 563, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .manytextblock {
+    padding: 0 10px;
+  }
+  /* line 565, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .manytextblock p {
+    text-align: center;
+  }
+  /* line 570, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .star {
+    width: 17px;
+    height: 17px;
+  }
+  /* line 575, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .star_contain {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 120px;
+    height: 60px;
+  }
+  /* line 582, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .steak {
+    height: 320px;
+  }
+  /* line 587, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  button, form {
+    border: solid 8px #0d0d0d;
+    font-size: 20px;
+    color: #000000;
+    padding: 20px 40px;
+    margin-top: 40px;
+  }
+  /* line 595, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  button:hover {
+    background-color: #0d0d0d;
+    color: #ffffff;
+  }
+  /* line 600, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .tea {
+    height: 320px;
+    padding: 10px;
+  }
+  /* line 605, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .large {
+    font-size: 42px;
+  }
+  /* line 609, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .copyright {
+    width: 1390px;
+    padding: 80px 0;
+    background-color: #0d0d0d;
+    margin: 0 auto;
+  }
+  /* line 614, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .copyright p {
+    color: #ffffff;
+  }
+  /* line 619, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 10px;
+    font-size: 33px;
+  }
+  /* line 625, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  form .inptext {
+    width: 60%;
+    border: none;
+    padding: 12px 0px;
+  }
+  /* line 631, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  form .inpbtn {
+    width: 35%;
+    background-color: #ffffff;
+    border: 0;
+    border-left: 1px solid black;
+    height: 100%;
+    padding: 14px 1px 14px 6px;
+  }
+  /* line 641, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  input {
+    margin: 0;
+  }
+  /* line 644, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .formblock {
+    padding: 40px 0 80px 0;
+  }
+  /* line 649, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+  .large {
+    font-size: 20px;
+  }
+}
+
+/* line 654, C:/Users/Наташа/Documents/GitHub/hw6/scss/style.scss */
+.copyright {
+  width: 100%;
+  padding: 40px 0;
 }
 
 /*# sourceMappingURL=../css/style.map */
